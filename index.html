@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/Aperture_Science.png">
+    <title>Aperture Science</title>
+</head>
+<body>
+    <header>
+        <img id= "logo" src="/Assets/Aperture_Science_Logo_OUTLINE.png" alt="Apareture Science Logo">
+    </header>
+    <nav class=>
+        <a class = "hyperLink" href="index.html">Home</a>
+        <a class = "hyperLink" href="Pages/about.html">About</a>
+        <a class = "hyperLink" href="Pages/services.html">Services</a>
+        <img id="cogwheel" src="Assets/cogwheel-diamond-com.svg" alt="settings cogwheel" class="menuItem">
+    </nav>
+    <!--Below here, the div is a theme switcher.-->
+<div class="settings-bar menuItem" id="settingsBar">
+        <div class="themeButton menuItem" id="themeButton">
+            <div class="themesMenu menuItem" id="themesMenu">
+                <div class="grid-container menuItem" id="darkModeSwitch"></div>
+                <div class="grid-container menuItem" id="pastelModeSwitch"></div>
+            </div>
+        </div>
+</div>
+<!-- The video -->
+<video autoplay muted loop id="AparetureShowcase">
+    <source src="Assets/Sequence 01_1.mp4" type="video/mp4">
+  </video>
+
+  <!--Center Text-->
+  <div id="centerText">
+    <h1>Welcome to Apareture Science</h1>
+    <h2>The leading company in innovation.</h2>
+  </div>
+
+    <!--Images showcase-->
+    <div class="imageShowcaseContainer">
+        <div class="imageArrows">
+            <img class="imageArrow" id="arrowLeft" src="Assets/arrow-left.svg" alt="Arrow left">
+            <img class="imageArrow" id="arrowRight" src="Assets/arrow-right.svg" alt="Arrow right">
+        </div>
+        <div class="imagePositionContainer" id="imgPositionContainer">
+        <!--  <div class="imagePosition"></div>
+            <div class="imagePosition"></div>
+            <div class="imagePosition"></div>
+            <div class="imagePosition"></div>
+            <div class="imagePosition"></div>
+            -->   
+        </div>
+        <div class="imgContainer">
+                <!--Images-->
+                <img class="showcaseImage" id="currentImage" src="Assets/Tech Showcase/Long_fall_boot_diagram.webp" alt="Long fall boots">
+                <img class="showcaseImage" src="Assets/Tech Showcase/ExcursionFunnel.jpg" alt="Excursion Funnel">
+                <img class="showcaseImage" src="Assets/Tech Showcase/PneumaticDiversityVent.jpg" alt="Pneumatic Diversity Vent">
+                <img class="showcaseImage" src="Assets/Tech Showcase/AerialFaithPlate.jpg" alt="Aerial Faith Plate">
+                <img class="showcaseImage" src="Assets/Tech Showcase/PropulsionGel.jpg" alt="Propulsion Gel">
+        </div>
+    </div>
+</body>
+</html>
